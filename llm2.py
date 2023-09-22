@@ -1,6 +1,5 @@
 import openai
 import gradio
-from gradio_client import Client
 
 #Get the OpenAI API Key
 openai.api_key = open('LLM Project/OpenAI_API_Key', 'r').read()
